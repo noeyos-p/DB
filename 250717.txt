@@ -1,0 +1,76 @@
+Git -> 형상 관리를 위한 프로그램 (형상관리 = version 관리)
+Github -> 저장소
+
+
+
+local(내 컴퓨터)
+-> 작업영역(Working area)
+-> Stayging(?) area
+-> Commit (관리영역?)
+
+remote(원격)
+	github.com
+
+a.txt -> 스테이징에어리어 
+=> 관리 시작 (수정과 변경이 업데이트 된다는 말 같음)
+-> git.add a.txt / .을 찍으면 모든 파일들이 깃에서 관리됨
+
+스테이징 에어리어 -> 관리 영역
+=> git commit - m 'login' 메세지를 적어서 커밋함
+-> 수정이 완료되어 가도 된다고 생각했을때
+
+모든 명령어는 git으로 시작함
+
+ github에서 내려받는게 git pull
+
+
+처음에 시작할때 컴퓨터 초기세팅을 해줘야함
+krapnoeyos
+git add
+git commit
+git pull
+
+git이라는 리포지터리에 있음
+
+https://git-scm.com/
+Git for Windows/x64 Setup.
+
+working area
+a.txt -- git add
+staging area
+-> a.txt 영역에 들어옴
+관리(repository)
+-> commit -> a.txt
+
+원격에 보냅시다.
+github -> repository
+
+m은 메세지
+M
+
+orgin -> 원격주소의 이름
+
+
+잘 사용하려면 원격의 있는 내용가 로컬에 있는 내요이 똑같아야함
+
+https://www.toptal.com/developers/gitignore
+
+window intellig+all Java
+
+
+
+
+dto = {'홍길동', 20, '서울', '010-8888-7777'}
+
+insert into telbook(name, age, address, phone)
+values('홍길동', 20, '서울', '010-8888-7777');
+
+validation check - 유효성검사
+데이터가 우리가 원하는 형태로 들어왔는지 확인
+
+정규표현식 regular
+
+정규표현식 정리 찾아서 쓰기
+
+
+

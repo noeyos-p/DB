@@ -262,3 +262,21 @@ select e.name, count(g.name) as count from entertainment as e
 inner join girl_group as g
 on e.e_id = g.enter_id
 group by e.name order by count desc;
+
+
+=============================
+create table emplyee(
+id int primary key auto_increment,
+name varchar(20) not null,
+superior_id int);
+
+INSERT INTO emplyee (name, superior_id) 
+VALUES ('김사장', null);
+INSERT INTO emplyee (name, superior_id) 
+VALUES ('정과장', 1);
+INSERT INTO emplyee (name, superior_id) 
+VALUES ('최대리', 2);
+INSERT INTO emplyee (name, superior_id) 
+VALUES ('이대리', 2);
+INSERT INTO emplyee (name, superior_id) 
+VALUES ('박고문', null);
